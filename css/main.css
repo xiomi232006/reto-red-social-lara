@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main .card {
+  width: 100%;
+}
+
+
+/*Footer*/
+html {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: rgb(219 39 39 / 87%);
+  background-image: linear-gradient(135deg, #ea9d38 0, #f09237 8.33%, #f48738 16.67%, #f77a3a 25%, #f96b3d 33.33%, #fa5a41 41.67%, #f94646 50%, #f72d4c 58.33%, #f40054 66.67%, #f0005d 75%, #eb0068 83.33%, #e40073 91.67%, #dc0080 100%);
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, #adffff 0, #a4ffff 25%, #9df2f2 50%, #97dade 75%, #92c5cb 100%);
+}
+nav {
+  color: #fff;
+  background-color: rgb(211, 114, 179);
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+.page-footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color: rgb(211, 114, 179);
+}
+main {
+  flex: 1 0 auto;
+}
+
+#perfil .btn-floating.halfway-fab {
+  bottom: 0;
+}
+
+#post form {
+  background-image: linear-gradient(135deg, #ea9d38 0, #f09237 8.33%, #f48738 16.67%, #f77a3a 25%, #f96b3d 33.33%, #fa5a41 41.67%, #f94646 50%, #f72d4c 58.33%, #f40054 66.67%, #f0005d 75%, #eb0068 83.33%, #e40073 91.67%, #dc0080 100%);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.card .card-content .form-p {
+  margin-bottom: 15px;
+}
+
+
+/*Estilos para subida de archivos*/
+
+#file-img {
+  width: 300px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#file-img .card {
+  height: 171px;
+  width: 171px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#preview {
+  position: relative;
+}
+
+#preview a {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  display: none;
+}
+
+#file-info {
+  text-align: center;
+  display: block;
+}
+
+#file-img input[type=file] {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  z-index: -9999;
+}
+
+#file-save {
+  text-align: center;
+  width: 171px;
+}
+
+.img-file {
+  width: 171px;
+  height: 171px;
+  color: blueviolet;
+}
+
+.card .tabs .tab {
+  line-height: 28px;
+}
+
+.card .tabs {
+  height: 58px;
+  background-image: linear-gradient(180deg, #ffffb1 0, #ffeca7 25%, #f2d59d 50%, #dcbf93 75%, #c7ac8a 100%);
+}
+.grey.lighten-4 {
+  background-color: #e5aee6 !important;
+}
+
+.row .col.m6 {
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    background-image: radial-gradient(circle at 50% -20.71%, #e3d0e6 0, #e6cfe4 6.25%, #e9cee1 12.5%, #eccede 18.75%, #eecdda 25%, #f0cdd7 31.25%, #f1cdd4 37.5%, #f2cdd0 43.75%, #f2cdcd 50%, #f2cdca 56.25%, #f1cec7 62.5%, #f0cfc4 68.75%, #efcfc2 75%, #edd0c0 81.25%, #ead1be 87.5%, #e8d2bd 93.75%, #e5d3bc 100%);
+}
+.card .card-image img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: radial-gradient(circle at 50% -20.71%, #e3d0e6 0, #e6cfe4 6.25%, #e9cee1 12.5%, #eccede 18.75%, #eecdda 25%, #f0cdd7 31.25%, #f1cdd4 37.5%, #f2cdd0 43.75%, #f2cdcd 50%, #f2cdca 56.25%, #f1cec7 62.5%, #f0cfc4 68.75%, #efcfc2 75%, #edd0c0 81.25%, #ead1be 87.5%, #e8d2bd 93.75%, #e5d3bc 100%);
+}
+.card .card-content {
+  padding: 24px;
+  border-radius: 0 0 2px 2px;
+  background-image: radial-gradient(circle at 50% -20.71%, #e3d0e6 0, #e6cfe4 6.25%, #e9cee1 12.5%, #eccede 18.75%, #eecdda 25%, #f0cdd7 31.25%, #f1cdd4 37.5%, #f2cdd0 43.75%, #f2cdcd 50%, #f2cdca 56.25%, #f1cec7 62.5%, #f0cfc4 68.75%, #efcfc2 75%, #edd0c0 81.25%, #ead1be 87.5%, #e8d2bd 93.75%, #e5d3bc 100%);
+}
+/* para que se agrege los post de los usuarios*/
+
+.card-text {
+  height: 150px;
+  width: 100%;
+  padding: 5px;
+  position: relative;
+}
+
+.posteando {
+  position: relative;
+  padding: 20px;
+}
+
+.iconitos li {
+  display: inline-block;
+  padding: 3px;
+}
+
+.iconss {
+  padding: 3px;
+  margin-top: 13px;
+}
+
+#logoo {
+  font-family: 'Acme', sans-serif;
+  color: rgb(223, 35, 92);
+
+}
+
+.splash {
+  background-color: rgb(226, 126, 213);
+  height: 100vh;
+  
+}
+
+.splash h1 {
+  margin-top: 60%;
+  color: rgb(235, 17, 17);
+}
+

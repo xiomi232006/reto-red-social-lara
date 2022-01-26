@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Perfil</title>
+  <link rel='stylesheet' href='../vendors/materialize/css/materialize.min.css'>
+  <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+  <link rel='stylesheet' href='../css/main.css'>
+</head>
+
+<body>
+  <section id='perfil'>
+    <nav>
+      <div class='row'>
+        <div class='col s12 '>
+          <div class='nav-wrapper'>
+            <a href='#' class='brand-logo left' id="logoo">Startup Social Network</a>
+            <ul id='nav-mobile' class='right'>
+              <li class='btn-home'>
+                <a href='#'>
+                  <i class='material-icons'>home</i>
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  <i class='material-icons'>person</i>
+                </a>
+              </li>
+              <li class="btn-salir">
+                <a href='#'>
+                  <i class='material-icons'>exit_to_app</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class='row'>
+      <div class='col s6 offset-s3 m6'>
+        <div class='card'>
+          <div class='card-image'>
+            <img src='../assets/images/user1.png'>
+            <a id='file-select' class='btn-floating halfway-fab waves-effect waves-light red btn-add-image'>
+              <i class='material-icons'>add_a_photo</i>
+            </a>
+          </div>
+          <div class='card-content'>
+            <span class='card-title center-align'>Nombre</span>
+            <p class='center-align red-text'>Emprendedor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab">
+            <a href="#test4">Public
+              <br> Post</a>
+          </li>
+          <li class="tab">
+            <a class="active" href="#test5">Seguidores
+              <br> 1M</a>
+          </li>
+          <li class="tab">
+            <a href="#test6">Seguidos
+              <br> 10k</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <div id="test4"></div>
+        <div id="test5"></div>
+        <div id="test6"></div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class='page-footer'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col l6 s12'>
+            <p class='grey-text text-lighten-4'>La red social de inversión en compañías con alto potencial de crecimiento, y la comunidad de startups más activa
+              de America Latina.</p>
+          </div>
+          <div class='col l4 offset-l2 s12 iconss'>
+            <p class="center-align">Encuentranos en:</p>
+            <ul class="iconitos center-align">
+              <li>
+                <a target='_blank' class='grey-text text-lighten-3' href='#'>
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a target='_blank' class='grey-text text-lighten-3' href='#'>
+                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a target='_blank' class='grey-text text-lighten-3' href='#'>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class='footer-copyright'>
+        <div class='container center-align'>
+          © 2018 Copyright Startup Social Network
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src='../vendors/jquery/jquery-3.2.1.min.js'></script>
+  <script src='https://www.gstatic.com/firebasejs/4.2.0/firebase.js'></script>
+  <script src='../vendors/materialize/js/materialize.min.js'></script>
+  <script src='../js/login.js'></script>
+  <script src='../js/perfil.js'></script>
+  <script src='../js/home.js'></script>
+</body>
+
+</html>
